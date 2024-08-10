@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "moyfont";
+    src: url('/fonts/UrbanDecaySP.otf') format('opentype');
+}
+
+
+::-webkit-scrollbar {
+    width: 7px; /* Ширина скролбара */
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000; /* Цвет фона трека */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Цвет ползунка */
+    border-radius: 10px; /* Закругление углов ползунка */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0000; /* Цвет ползунка при наведении */
+}
+.vid{
+    display: inline-block;
+    z-index: -2;
+}
+
+
+
+.chleni{
+    width: 350px;
+    z-index: 2;
+    position: relative;
+    top: -185px;
+    display: inline-block;
+    left: 350px;
+    border-radius: 25%;
+}
+.music{
+    position: absolute;
+    display: inline-block;
+    bottom: 20px;
+    z-index: 1;
+    top: 740px;
+    
+}
+
+.info1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    margin-top: 200px;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+.o-nas-idiots{
+    margin: 100px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 7px;
+    font-size: 120px;
+    font-family: "moyfont";
+   text-align: center;
+    z-index: 1;
+    padding: auto;
+}
